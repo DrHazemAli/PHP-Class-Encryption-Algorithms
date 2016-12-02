@@ -13,24 +13,23 @@ Let's Encrypt!
   
   
   
-/* --------------------------------------------*
- * FOR STRING ENCRYPTION
- */
+
+-- FOR STRING ENCRYPTION
+
   
  $EncryptedString =  $Encryptor->Encrypt("Hello World");
- 
   echo "ENCRYPTED STRING :> {$EncryptedString} \r\n";
 
 
-/* --------------------------------------------*/
-  * Decrypt String Test
+
+-- Decrypt String Test
   * PLEASE DO NOT PERFORM THIS CALL IF THE PASSED
   * PARAMETER IS NOT ENCRYPTED
-  */
+
     $EncryptedString = "WDBmZlZodU4zd2hCNkpqRjNCOXhndz09";
     $DecryptedString =  $Encryptor->Decrypt($EncryptedString);
     echo "DECRYPTED STRING :> {$DecryptedString} \r\n";
-/* --------------------------------------------*/
+
 
 
 
@@ -50,4 +49,4 @@ Let's Encrypt!
       // Password is Correct ....
     }else { /* Password is not correct. */ }
     
- /* --------------------------------------------*/
+
