@@ -1,14 +1,17 @@
 # PHP-Class-Encryption-Algorithms
 Let's Encrypt!
 
-/* --------------------------------------------*
+1st:
   Initialize Class with the default settings by calling the following method.
   $Encryptor = new Encryption();
-/* --------------------------------------------*
-  * If you want to change the encryption method, key or IV..
-  * you can do it by passing the new parameters when the encryption class being called
-  */
+
+   If you want to change the encryption method, key or IV..
+   you can do it by passing the new parameters when the encryption class being called
+
   Example : $encryption = new Encryption("METHID", "KEY", "IV");
+  
+  
+  
   
 /* --------------------------------------------*
  * FOR STRING ENCRYPTION
