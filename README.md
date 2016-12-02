@@ -35,21 +35,21 @@ This PHP Class Written By Dr. Hazem Ali, Under GNU GENERAL PUBLIC LICENSE
 
 
 
-  --------------- PASSWORD ENCRYPTION ---------------
+--------------- PASSWORD ENCRYPTION ---------------
   * THE ENCRYPTION CLASS DESIGNED TO PERFORM THE MAX.
   * ENCRYPTION FOR PASSWORDS, WHICH CANNOT BE DECRYPTED
   * IN ORDER TO ENCRYPT A PASSWORD, PLEASE CALL THIS FUNC.
 
 
-  $Password = "123456";
-  $EncryptedPassword = $Encryptor->EncryptPassword($Password);
-  echo "ENCRYPTED PASSWORD :> {$EncryptedPassword} \r\n";
+$Password = "123456";
+$EncryptedPassword = $Encryptor->EncryptPassword($Password);
+echo "ENCRYPTED PASSWORD :> {$EncryptedPassword} \r\n";
 
   --------------- HOW TO PERFORM CONDITIONS ON ENCRYPTED PASSWORDS ---------------
   * YOU CAN PERFORM THE PASSWORD EQUALITY (IF STATEMENT)
   * by using the condition below :
    
-   if ($Encryptor->EncryptPassword($Password) == $EncryptedPassword)
+if ($Encryptor->EncryptPassword($Password) == $EncryptedPassword)
     {
       // Password is Correct ....
     }
